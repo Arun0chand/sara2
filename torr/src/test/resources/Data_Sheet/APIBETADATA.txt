@@ -1,0 +1,27 @@
+publisher_api_key=${publisher_api_key}&publisher_id=${publisher_id}&contact_id=${contact_id}&firstname=${firstname}&surname=${surname}&email=${email}&salutation=${salutation}&ipaddress=${ipaddress}&dob=${dob}&postcode=${postcode}&gender=${gender}&optinsource=${optinsource}&optintime=${optintime}&optindate=${optindate}
+
+
+publisher_api_key,publisher_id,contact_id,firstname,surname,email,salutation,ipaddress,dob,postcode,gender,optinsource,optintime,optintime
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Path===   /rest_api/contact_rest_api/contact_insert/?publisher_api_key=${publisher_api_key}&publisher_id=${publisher_id}&contact_id=${contact_id}&firstname=${firstname}&surname=${surname}&email=${email}&salutation=${salutation}&ipaddress=${ipaddress}&dob=${dob}&postcode=${postcode}&gender=${gender}&optinsource=${optinsource}&optintime=${optintime}&optindate=${optindate}
+
+Domain== opend-api.tech-active.com
+
+CSV===  publisher_api_key,publisher_id,contact_id,firstname,surname,email,salutation,ipaddress,dob,postcode,gender,optinsource,optintime,optindate
+
+
+Steps for the Csv Configuration for uploading the csv file
+
+1)Create the test plan.
+2)Create the thread group.
+3)Add the HTTP request from selecting Sampler.
+4)Add the CSV set Configuration by selecting the Config Element.
+5)Add the response Assertion from the Assertions.
+6)Add the results tree from the Listerners.
+7)Add the response assertion results from the Listerners.
+8)Add the results table from the Listerners.
+9)Add the simple data Writer from the Listerners to store the results in the CSV sheet format.
